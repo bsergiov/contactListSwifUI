@@ -11,6 +11,12 @@
 		CCCEE24127D0142B00ABA946 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEE24027D0142B00ABA946 /* ContentView.swift */; };
 		CCCEE24327D0142E00ABA946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCEE24227D0142E00ABA946 /* Assets.xcassets */; };
 		CCCEE24627D0142E00ABA946 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCEE24527D0142E00ABA946 /* Preview Assets.xcassets */; };
+		CCCEE25027D0149C00ABA946 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEE24F27D0149C00ABA946 /* Person.swift */; };
+		CCCEE25227D017C400ABA946 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEE25127D017C400ABA946 /* DataManager.swift */; };
+		CCCEE25427D0254E00ABA946 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEE25327D0254E00ABA946 /* Contacts.swift */; };
+		CCCEE25727D0257700ABA946 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEE25627D0257700ABA946 /* Numbers.swift */; };
+		CCCEE25927D09AAF00ABA946 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEE25827D09AAE00ABA946 /* Profile.swift */; };
+		CCCEE25B27D0B7F200ABA946 /* CardProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEE25A27D0B7F200ABA946 /* CardProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		CCCEE24027D0142B00ABA946 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CCCEE24227D0142E00ABA946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCCEE24527D0142E00ABA946 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCCEE24F27D0149C00ABA946 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CCCEE25127D017C400ABA946 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CCCEE25327D0254E00ABA946 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		CCCEE25627D0257700ABA946 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		CCCEE25827D09AAE00ABA946 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		CCCEE25A27D0B7F200ABA946 /* CardProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +63,11 @@
 		CCCEE23D27D0142B00ABA946 /* contactListSwifUI */ = {
 			isa = PBXGroup;
 			children = (
+				CCCEE24D27D0145B00ABA946 /* Models */,
+				CCCEE24C27D0143C00ABA946 /* View */,
 				CCCEE23E27D0142B00ABA946 /* contactListSwifUIApp.swift */,
 				CCCEE24027D0142B00ABA946 /* ContentView.swift */,
-				CCCEE24227D0142E00ABA946 /* Assets.xcassets */,
+				CCCEE24E27D0146600ABA946 /* Resources */,
 				CCCEE24427D0142E00ABA946 /* Preview Content */,
 			);
 			path = contactListSwifUI;
@@ -65,6 +79,50 @@
 				CCCEE24527D0142E00ABA946 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCCEE24C27D0143C00ABA946 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCCEE25527D0255500ABA946 /* Screens */,
+				CCCEE25C27D0B82800ABA946 /* New Group */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCCEE24D27D0145B00ABA946 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCCEE24F27D0149C00ABA946 /* Person.swift */,
+				CCCEE25127D017C400ABA946 /* DataManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CCCEE24E27D0146600ABA946 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCCEE24227D0142E00ABA946 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CCCEE25527D0255500ABA946 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CCCEE25327D0254E00ABA946 /* Contacts.swift */,
+				CCCEE25627D0257700ABA946 /* Numbers.swift */,
+				CCCEE25827D09AAE00ABA946 /* Profile.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CCCEE25C27D0B82800ABA946 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				CCCEE25A27D0B7F200ABA946 /* CardProfile.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +196,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCCEE24127D0142B00ABA946 /* ContentView.swift in Sources */,
+				CCCEE25227D017C400ABA946 /* DataManager.swift in Sources */,
+				CCCEE25727D0257700ABA946 /* Numbers.swift in Sources */,
+				CCCEE25927D09AAF00ABA946 /* Profile.swift in Sources */,
+				CCCEE25027D0149C00ABA946 /* Person.swift in Sources */,
 				CCCEE23F27D0142B00ABA946 /* contactListSwifUIApp.swift in Sources */,
+				CCCEE25427D0254E00ABA946 /* Contacts.swift in Sources */,
+				CCCEE25B27D0B7F200ABA946 /* CardProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
