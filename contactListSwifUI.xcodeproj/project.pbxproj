@@ -17,6 +17,8 @@
 		CCCEE25727D0257700ABA946 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEE25627D0257700ABA946 /* Numbers.swift */; };
 		CCCEE25927D09AAF00ABA946 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEE25827D09AAE00ABA946 /* Profile.swift */; };
 		CCCEE25B27D0B7F200ABA946 /* CardProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEE25A27D0B7F200ABA946 /* CardProfile.swift */; };
+		CCCEE25E27D1F2D400ABA946 /* RowContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEE25D27D1F2D400ABA946 /* RowContact.swift */; };
+		CCCEE26027D1F39F00ABA946 /* RowNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEE25F27D1F39F00ABA946 /* RowNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		CCCEE25627D0257700ABA946 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
 		CCCEE25827D09AAE00ABA946 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		CCCEE25A27D0B7F200ABA946 /* CardProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProfile.swift; sourceTree = "<group>"; };
+		CCCEE25D27D1F2D400ABA946 /* RowContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowContact.swift; sourceTree = "<group>"; };
+		CCCEE25F27D1F39F00ABA946 /* RowNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				CCCEE25527D0255500ABA946 /* Screens */,
-				CCCEE25C27D0B82800ABA946 /* New Group */,
+				CCCEE25C27D0B82800ABA946 /* View */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -117,12 +121,14 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		CCCEE25C27D0B82800ABA946 /* New Group */ = {
+		CCCEE25C27D0B82800ABA946 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CCCEE25D27D1F2D400ABA946 /* RowContact.swift */,
 				CCCEE25A27D0B7F200ABA946 /* CardProfile.swift */,
+				CCCEE25F27D1F39F00ABA946 /* RowNumber.swift */,
 			);
-			path = "New Group";
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +208,8 @@
 				CCCEE25027D0149C00ABA946 /* Person.swift in Sources */,
 				CCCEE23F27D0142B00ABA946 /* contactListSwifUIApp.swift in Sources */,
 				CCCEE25427D0254E00ABA946 /* Contacts.swift in Sources */,
+				CCCEE26027D1F39F00ABA946 /* RowNumber.swift in Sources */,
+				CCCEE25E27D1F2D400ABA946 /* RowContact.swift in Sources */,
 				CCCEE25B27D0B7F200ABA946 /* CardProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

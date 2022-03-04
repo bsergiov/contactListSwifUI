@@ -15,12 +15,7 @@ struct Contacts: View {
         
         NavigationView {
             List(contatcts) {contact in
-                NavigationLink(destination: Profile(person: contact)) {
-                    Button(action: {}) {
-                        Text(contact.fullName)
-                    }
-                }
-                .navigationTitle(Text("Contacts"))
+                RowContact(contact: contact)
             }
             .listStyle(.inset)
         }
@@ -32,3 +27,5 @@ struct Contacts_Previews: PreviewProvider {
         Contacts()
     }
 }
+
+

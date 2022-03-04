@@ -14,11 +14,7 @@ struct Numbers: View {
     var body: some View {
         NavigationView {
             List(contacts) {contact in
-                Section(header: Text(contact.fullName)) {
-                    Label(contact.phone, systemImage: "phone")
-                    Label(contact.email, systemImage: "envelope")
-                }
-                .navigationTitle(Text("Numbers"))
+                RowNumber(contact: contact)
             }.listStyle(.inset)
         }
     }
@@ -29,3 +25,5 @@ struct Numbers_Previews: PreviewProvider {
         Numbers(contacts: Person.getPersons())
     }
 }
+
+
